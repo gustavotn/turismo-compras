@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,10 +10,17 @@
     width: 100%;
     background-color: #000000;
     align-items: center;
+    display: flex;
 }
 
 .component-question-location{
-    position: absolute;
     top: 27px;
     margin-left: 80px;
+    margin-right: 135px;
+}
+
+.tool-bar-text{
+    color: #FFFFFF;
+    margin-left: 55px;
+    font-family: 'Inter', sans-serif;
 }
