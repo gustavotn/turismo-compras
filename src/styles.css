@@ -1,26 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #00FFC2;
+}
+
 .tool-bar-view{
     height: 80px;
     width: 100%;
-    background-color: #000000;
-    align-items: center;
+    background-color: var(--color-tool-bar-view);
     display: flex;
+    align-items: center;
+    justify-content: center ;
 }
 
 .component-question-location{
     top: 27px;
-    margin-left: 80px;
-    margin-right: 135px;
+    margin: 0px 80px;
 }
 
 .tool-bar-text{
     color: #FFFFFF;
-    margin-left: 55px;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-tool-bar);
+    margin: 0px 35px;
+}
+
+.background-search{
+    width: 165px;
+    height: 26px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+    margin: 0px 50px;
+    border-radius: 13px;
+}
+
+.lupa{
+    width: 30px;
+    height: 26px;
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-search{
+    background-color: black;
+    width: 1px;
+    height: 18px;
+    margin: 0px 5px;
 }
