@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #00FFC2;
+}
+
+.tool-bar-view{
+    height: 80px;
+    width: 100%;
+    background-color: var(--color-tool-bar-view);
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.component-question-location{
+    top: 27px;
+    margin: 0px 80px;
+}
+
+.tool-bar-text{
+    color: #FFFFFF;
+    font-family: var(--font-tool-bar);
+    margin: 0px 35px;
+    
+}
+
+.background-search{
+    width: 165px;
+    height: 26px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 0px 50px;
+    border-radius: 13px;
+}
+
+.lupa{
+    width: 30px;
+    height: 26px;
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lupa img{
+    width: 18x;
+    height: 18px;
+}
+
+.input-search{
+    box-shadow: 0 0 0 0;
+    font-size: 16px;
+    border: 0 none;
+    outline: 0;
+    width: 120px;
+    height: 20px;
+}
+
+.lupa button{
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
